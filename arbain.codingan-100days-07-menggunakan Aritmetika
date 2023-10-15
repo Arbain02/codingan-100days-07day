@@ -1,0 +1,23 @@
+
+package codingan.pkg100day;
+
+public class arbain {
+    
+    public static void main (String[] args) {
+        int angka1 = 7;
+        int angka2 = 10;
+        
+        int hasilTambah = angka1 + angka2;
+        System.out.println("penambah :" + hasilTambah);
+        
+        int hasilKurang = angka1 - angka2;
+        System.out.println("pengurangan :" + hasilKurang);
+        
+        int hasilKali = angka1 * angka2;
+        System.out.println("Perkalian :" + hasilKali);
+        
+        int hasilBagi = angka1 / angka2;
+        System.out.println("pembagian :" + hasilBagi);
+    }
+    
+}
